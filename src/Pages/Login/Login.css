@@ -1,0 +1,15 @@
+.form-heading {
+  text-align: center;
+}
+.login-form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.login-form-container .ant-form-item .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

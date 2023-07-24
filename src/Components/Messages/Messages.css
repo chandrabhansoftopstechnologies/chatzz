@@ -1,0 +1,13 @@
+.messages {
+  background-image: url("../../Assets/back.jpeg");
+  padding: 10px;
+  height: 100%;
+  overflow: scroll;
+  padding-bottom: 50px;
+  /* flex-grow: 1; */
+}
+.background-img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}

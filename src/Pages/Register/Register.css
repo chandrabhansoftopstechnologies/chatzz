@@ -1,0 +1,24 @@
+.form-heading {
+  text-align: center;
+}
+.register-form-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.register-form-container .ant-form-item .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.upload-image-input-container {
+  width: 110px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  align-items: center;
+}

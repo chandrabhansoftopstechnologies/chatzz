@@ -1,0 +1,65 @@
+.input-parent-main {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.input-main {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  background-color: #5d5b8d;
+  align-items: center;
+}
+form {
+  width: 100%;
+}
+.input-main input[type="text"] {
+  padding: 10px 5px;
+  width: 57%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 20px;
+}
+.input-main input[type="text"]:focus {
+  border: none;
+  outline: none;
+}
+.input-main input[type="text"]::placeholder {
+  color: lightgray;
+}
+.input-icons-container,
+.clip-container,
+.img-send-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  gap: 15px;
+}
+.input-icons-container {
+  gap: 10px;
+}
+.smile-icon {
+  width: 30px;
+  height: 30px;
+}
+.input-icons {
+  font-size: 20px;
+  color: white;
+}
+.image-container {
+  width: 220px;
+  height: 250px;
+  border: 1px dotted darkgray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.image-container img {
+  width: 200px;
+  height: 100%;
+  border-radius: 10px;
+}
